@@ -4,13 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
-  outline: none;
-  border: none;
   font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
 }
-
 body {
   background: #020410;
 }
@@ -27,15 +22,6 @@ body {
   align-items: center;
   z-index: 100;
 }
-
-.login {
-  transform: scale(0);
-}
-
-.login.active {
-  transform: scale(1);
-}
-
 .taskbar a {
   position: relative;
   font-size: 16px;
@@ -43,9 +29,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   margin-right: 30px;
-  transition: 0.3s;
 }
-
 .taskbar a::after {
   content: "";
   position: absolute;
@@ -144,7 +128,7 @@ body {
   background-image: url("image/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right top;
+  background-position: center;
   border-radius: 10px;
   margin-top: 15px;
   transform: scale(0);
@@ -193,6 +177,7 @@ body {
   font-size: 25px;
   font-weight: 700;
 }
+
 
 .content h3 span {
   color: #a52843;

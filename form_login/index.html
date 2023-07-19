@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Basic Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Profile Card</title>
+    <script
+      src="https://kit.fontawesome.com/82a85080f6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="taskbar">
+        <a href="#banner" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="https://phuuthanh2003.github.io/introduct/" target="_blank"
+          >Contact</a
+        >
+        <button class="btnLogin-popup">Login</button>
+      </nav>
+
+      <form action="#" class="search-bar">
+        <input type="text" placeholder="Search..." />
+        <button type="submit"><i class="bx bx-search"></i></button>
+      </form>
+    </header>
+    <div class="background"></div>
+    <div class="container">
+      <span class="icon-close"><i class="bx bx-exit"></i></span>
+      <div class="content">
+        <div class="logo">
+          <img class="avatar" src="image/avt.jpg" />
+          <h3 class="hello">Hello, It's Me</h3>
+          <h1>Phung Huu Thanh</h1>
+          <h3>And I'm a <span>Developer</span></h3>
+        </div>
+
+        <div class="text-scr">
+          <h2>Welcome!<br /><span>To Our New Website.</span></h2>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus,
+            aspernatur nulla! Aut assumenda autem magni totam modi cumque
+            ducimus eius dolorum.
+          </p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/thanhphg89/" target="_blank"
+              ><i class="bx bxl-facebook-circle"></i
+            ></a>
+            <a href="https://www.instagram.com/hthanh.08/" target="_blank"
+              ><i class="bx bxl-instagram-alt"></i
+            ></a>
+            <a href="https://github.com/phuuthanh2003" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/phthanh0908/" target="_blank"
+              ><i class="bx bxl-linkedin-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="logreg-box">
+        <div class="form-box login">
+          <form action="#">
+            <h2>Sign In</h2>
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-envelope"></i></span>
+              <input type="email" required />
+              <label>Email</label>
+            </div>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input type="password" required />
+              <label>Password</label>
+            </div>
+            <div class="remeber-forgot">
+              <label><input type="checkbox" /> Remeber me</label>
+              <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn">Sign In</button>
+
+            <div class="login-register">
+              <p>
+                Don't have an account?
+                <a href="#" class="register-link">Sign Up</a>
+              </p>
+            </div>
+            <div class="media-options">
+              <a href="#">
+                <i class="bx bxl-google"></i>
+                <span>Login with Google</span>
+              </a>
+              <a href="#">
+                <i class="bx bxl-facebook-circle"></i>
+                <span>Login with Facebook</span>
+              </a>
+            </div>
+          </form>
+        </div>
+
+        <div class="form-box register">
+          <form action="#">
+            <h2>Sign Up</h2>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-user"></i></span>
+              <input type="text" required />
+              <label>Name</label>
+            </div>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-envelope"></i></span>
+              <input type="email" required />
+              <label>Email</label>
+            </div>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input type="password" required />
+              <label>Password</label>
+            </div>
+
+            <div class="remeber-forgot">
+              <label
+                ><input type="checkbox" /> I agree to the term &
+                conditions</label
+              >
+            </div>
+
+            <button type="submit" class="btn">Sign Up</button>
+
+            <div class="login-register">
+              <p>
+                Already have an account?
+                <a href="#" class="login-link">Sign In</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

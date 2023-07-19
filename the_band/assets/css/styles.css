@@ -181,7 +181,7 @@ html {
   position: relative;
   margin-top: 46px;
   padding-top: 50%;
-  background-image: url("/img/slider/slider2.jpg");
+  background-image: url("/assets/img/slider/slider2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -386,7 +386,7 @@ html {
 .modal-close {
   position: absolute;
   right: 0;
-  padding: 10px;
+  padding: 10px 15px;
   color: #fff;
 }
 
